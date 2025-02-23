@@ -1,0 +1,23 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.listItem {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 360px;
+  padding: 12px 16px;
+  border: 2px solid #000;
+  border-radius: 4px;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.span {
+  display: flex;
+  gap: 6px;
+}
